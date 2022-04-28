@@ -2,7 +2,6 @@ import React from "react";
 import UserInfo from "./components/userInfo";
 import Time from "./components/time";
 import TabContent from "./components/tabContent";
-
 const TimeTracker = ()=>{
     return(
         <div className="timeTracker">
@@ -10,7 +9,6 @@ const TimeTracker = ()=>{
                 <UserInfo />
                 <Time />
             </div>
-
             <div className="tracker tabContainer">
                 <TabContent tab="daily" className="tabContent active"/>
                 <TabContent tab= "weekly" className="tabContent"/>
